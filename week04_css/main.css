@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+*{
+    display: flex;
+    font-family: 'Nanum Gothic';
+}
+
+head{display:none;}
+
+
+header{
+    margin-top: 1.8em; margin-left: 1.35em;
+    height: 30px;
+    /*alinge-items=baseline 적용...*/
+}
+header div.search{
+    margin-left: 4em;
+    border: solid 1px grey;
+    border-radius: 18px;
+    width: 600px;
+    height: 40px;
+}
+header div.search input{
+    margin-left: 1em;
+    border: 0px;
+    width: 600px;
+    font-size: 14px;
+}
+header div.user{
+    position: absolute;
+    justify-content: flex-end;
+    height: 30px;
+    /*어딜 기준으로 center? flex-end는 왜 범위를 벗어나는지?*/
+}
+
+nav{
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#upper{justify-content: column;}
+    /*justify적용?????*/
